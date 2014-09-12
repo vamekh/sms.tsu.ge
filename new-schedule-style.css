@@ -1,0 +1,47 @@
+.chex-table{
+	width: auto;
+}
+
+.chex-day-schedule{
+	text-align: center;
+	float: left;/**/
+	margin-bottom: 10px;
+}
+
+.chex-day-header{
+	background: gray;
+	color: white;
+	font-weight: bold;
+}
+
+.chex-lessons{
+}
+
+.chex-lesson{
+}
+
+.chex-lesson-info{
+	width: 100%;
+}
+
+.chex-lesson-info-time{
+	float: left;
+}
+
+.chex-lesson-info-type{
+	float: right;
+}
+
+.chex-lesson-subject{
+	width: 100%;
+	overflow: hidden;
+}
+
+.chex-lesson-place{
+	width: 100%;
+	overflow: hidden;
+}
+
+.chex-lessons > div:nth-child(even){
+	background-color: gray;
+}
